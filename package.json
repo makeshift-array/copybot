@@ -1,0 +1,36 @@
+{
+  "name": "copybot",
+  "version": "1.0.0",
+  "description": "GUI based app to watch source file / folder changes and copy those files to the target location",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron window.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makeshift-array/copybot.git"
+  },
+  "keywords": [],
+  "author": "Makeshift Array",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/makeshift-array/copybot/issues"
+  },
+  "homepage": "https://github.com/makeshift-array/copybot#readme",
+  "dependencies": {
+    "electron-compile": "^6.1.3",
+    "vue": "^2.2.6",
+    "vue-material": "^0.7.1",
+    "vueify": "^9.4.1",
+    "vuex": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2016-node5": "^1.1.2",
+    "babel-preset-stage-2": "^6.22.0",
+    "electron-compilers": "^5.6.0",
+    "electron-devtools-installer": "^2.1.0",
+    "electron-prebuilt-compile": "^1.6.2"
+  }
+}
